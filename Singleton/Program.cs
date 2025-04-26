@@ -1,2 +1,38 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿
+
+
+
+///No thread Safe Shingleton 
+///
+
+
+public sealed class Singleton
+{
+    private static Singleton instance = null;
+     private Singleton() 
+    { 
+        Console.WriteLine("Singleton instance created.");
+    }
+
+    private static Singleton Method
+    {
+        get
+        {
+            if(instance == null)
+            {
+                instance = new Singleton();
+            }
+            return instance;
+        }
+    }
+
+    public static void Main(string[] args)
+    {
+        Singleton singleton = Singleton.Method;
+        Singleton singleton1 = Singleton.Method;
+        Console.WriteLine(singleton);
+        Console.WriteLine(singleton1);
+    }
+}
+
+
