@@ -34,13 +34,13 @@ namespace Singleton
             }
         }
 
-        public static void Main(string[] args)
-        {
-            Singleton singleton = Singleton.Method;
-            Singleton singleton1 = Singleton.Method;
-            Console.WriteLine(singleton);
-            Console.WriteLine(singleton1);
-        }
+        //public static void Main(string[] args)
+        //{
+        //    Singleton singleton = Singleton.Method;
+        //    Singleton singleton1 = Singleton.Method;
+        //    Console.WriteLine(singleton);
+        //    Console.WriteLine(singleton1);
+        //}
     }
 
 
