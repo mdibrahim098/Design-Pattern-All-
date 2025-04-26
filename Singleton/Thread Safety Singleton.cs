@@ -18,7 +18,7 @@ namespace Singleton
             }
             private static readonly object Lock  = new object();
 
-            public static Singleton2 instance = null;
+            private static Singleton2 instance = null;
             public static Singleton2 GetMethod
             {
                 get
@@ -36,11 +36,11 @@ namespace Singleton
 
         }
 
-        public static void  Main(string[] args)
-        {
-            Singleton2 obj = Singleton2.GetMethod;
+        //public static void  Main(string[] args)
+        //{
+        //    Singleton2 obj = Singleton2.GetMethod;
 
-        }
+        //}
 
 
 
