@@ -39,10 +39,10 @@ namespace Singleton
 
     public class Program
     {
-        public static void Main(string[] args)
-        {
-            // Access the Singleton instance
-            Singleton3 obj = Singleton3.Instance;
-        }
+        //public static void Main(string[] args)
+        //{
+        //    // Access the Singleton instance
+        //    Singleton3 obj = Singleton3.Instance;
+        //}
     }
 }
