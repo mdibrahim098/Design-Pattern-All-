@@ -25,12 +25,12 @@ public static Singleton4 instance
         }
 
 
-           private static void Main(string[] args)
-        {
-			Singleton4 singleton = Singleton4.instance;
-			Console.WriteLine("Singleton instance created.");
+  //         private static void Main(string[] args)
+  //      {
+		//	Singleton4 singleton = Singleton4.instance;
+		//	Console.WriteLine("Singleton instance created.");
 
-		}
+		//}
 
 
 }
