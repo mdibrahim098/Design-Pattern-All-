@@ -4,16 +4,16 @@ using FactoryDesignPattern;
 public class Program
 {
 
-    public static void Main(string[] args)
-    {
-        string vechicleName = Console.ReadLine();
+    //public static void Main(string[] args)
+    //{
+    //    string vechicleName = Console.ReadLine();
 
-        VechicleFactory factory = new VechicleFactory();
-        IVehicle vehicle = factory.CreateInstace(vechicleName);
-        vehicle.Start();
-        vehicle.Stop();
-        Console.ReadKey();
-    }
+    //    VechicleFactory factory = new VechicleFactory();
+    //    IVehicle vehicle = factory.CreateInstace(vechicleName);
+    //    vehicle.Start();
+    //    vehicle.Stop();
+    //    Console.ReadKey();
+    //}
 
 }
 
